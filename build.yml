@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  post_build:
+    commands:
+      - cd projectone1 && mvn clean package
+artifacts:
+  files:
+    - 'projectone1/target/*.war'
