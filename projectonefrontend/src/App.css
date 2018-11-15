@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#forHeader{
+  background-color: #F79736 !important;
+  
+}
+.backgroundForPages {
+  background-image: linear-gradient(to bottom, #F79736, white) !important;
+}
+.backgroundForBody {
+  background-image: linear-gradient(to bottom, black ,#23272A ) !important;
+}
+
+.backgroundForDashboards {
+
+  background-color: #f1f1f1;
+}
+
+.flex-row-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
